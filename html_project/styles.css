@@ -1,0 +1,57 @@
+body{
+background-image: url("https://store-images.s-microsoft.com/image/apps.14723.14101798733668136.93dc91f9-8a45-4a62-a839-a1ea11b6ee8b.148530a4-6ef5-406b-966e-f78757f4a9b9?mode=scale&q=90&h=1080&w=1920");
+background-size:cover ;
+}
+ul{
+
+   padding: 0px;
+   margin: 0px;
+   text-decoration: none;
+   list-style-type: none;       
+}
+ul li{
+    float:left;
+    width:290px;
+    height: 65px;
+    font-size: 35px;
+    text-align:center;
+    background-color:black;
+    opacity: 0.6;
+    line-height: 70px;
+    margin-right:3px ;
+   
+ 
+
+}
+a{
+    font-family: cursive;
+    color:white;
+    text-decoration:none;
+}
+ul li:hover{
+    background-color: turquoise;
+}
+ul li ul li{
+   
+    display: none;
+  
+}
+ul li:hover ul li{
+  
+display: block;
+}
+footer{
+    color:rgb(121, 86, 122);
+ 
+    line-height: 655px;
+    margin-left: 125px;
+    font-size: 45px;
+
+    
+}
+footer:hover{
+    display:none;
+}
+.menu:hover{
+color:black;
+}
